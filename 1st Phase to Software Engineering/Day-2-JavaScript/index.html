@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,45 @@
     <script src="app.js" defer></script>
     <title>Todo-List</title>
 </head>
+
 <body>
-    
+    <div class="Todo-List">
+        <h1>My Todo List</h1>
+    </div>
+
+    <div class="input-section">
+        <input class="task-input" type="text" id="todo-input" placeholder="Add a new task...">
+        <button class="add-task-button" id="add-button">Add</button>
+    </div>
+
+    <div>
+        <ol class="task-list" id="todo-list">
+            <!-- Todo items will be added here dynamically -->
+            <div class="no-tasks-message" id="no-tasks-message">
+                <p>No tasks available. Please add a task.</p>
+        </ol>
+    </div>
+
+    <div class="essential-buttons">
+
+        <div >
+            <button class="save-task" id="save-button">Save Task</button>
+        </div>
+
+        <div>
+            <button class="delete-task" id="delete-button">Delete Task</button>
+        </div>
+
+        <div>
+            <button class="clear-all-tasks" id="clear-all-button">Clear All Tasks</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Todo-List App</p>
+    </div>
+
 </body>
+
 </html>

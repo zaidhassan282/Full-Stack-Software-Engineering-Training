@@ -1,0 +1,68 @@
+.Todo-List h1 {
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.add-task-button {
+    width: 20%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0;
+    max-width: 600px;
+    margin: 80px 140px;
+}
+
+.essential-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.save-task,
+.delete-task,
+.clear-all-tasks {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
