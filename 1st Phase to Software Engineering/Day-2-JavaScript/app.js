@@ -37,6 +37,7 @@ addItemButton.addEventListener('click', () => {
     listItem.appendChild(textSpan);
     list.appendChild(listItem);
 
+
     // Remove "no tasks" message safely
     const noTasksMessage = document.getElementById('no-tasks-message');
     if (noTasksMessage) {
