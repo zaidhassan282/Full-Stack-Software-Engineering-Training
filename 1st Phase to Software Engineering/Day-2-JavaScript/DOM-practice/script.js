@@ -42,7 +42,7 @@ addEventListener */
 //     else{
 //         boxDiv.classList.add('active');
 //     }
-    
+
 //   /* Toggle the 'active' class on the div */
 //   boxDiv.classList.toggle('active');
 // }
@@ -73,7 +73,7 @@ displaybtn.addEventListener('click', () => {
 
     const newItemText = inputbox.value.trim();
 
-    if(newItemText === '' ){
+    if (newItemText === '') {
         alert('Please enter in the box');
         return;
     }
@@ -83,17 +83,48 @@ displaybtn.addEventListener('click', () => {
     const textSpan = document.createElement('span');
     textSpan.textContent = newItemText;
 
-    list.appendChild(listItem);
+    const delbtn = document.createElement('button');
+    delbtn.textContent = 'Delete';
+
     listItem.appendChild(textSpan);
+    textSpan.appendChild(delbtn);
+    list.appendChild(listItem);
 
     inputbox.value = '';
-    
-}
-);
 
-inputbox.addEventListener('keypress' , (event) =>{
-    if (event.key == 'Enter'){
-       displaybtn.click()
+    // 4️⃣ Remove Elements
 
-    }
-})
+// Task:
+// Each list item has a delete button
+// Clicking removes that item
+
+// Concepts:
+// remove()
+// parentElement
+
+
+        delbtn.addEventListener('click', () => {
+
+        
+            listItem.remove();
+        });
+
+
+});
+
+
+
+
+
+
+
+
+    inputbox.addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+            displaybtn.click()
+
+        }
+    });
+
+
+
