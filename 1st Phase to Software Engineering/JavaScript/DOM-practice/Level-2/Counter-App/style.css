@@ -1,0 +1,53 @@
+body{
+    background-color: dimgray;
+}
+
+.main-title{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 50px 500px 50px 500px;
+    padding: 20px 0px;
+    border: solid;
+    border-radius: 25px;   
+}
+
+.counter{
+    background-color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 200px 700px;
+    padding: 20px;
+    border: solid;
+    border-radius: 25px;   
+}
+
+.decbtn{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin: 50px 705px;
+    padding: 20px;
+    border: solid;
+    border-radius: 25px;   
+}
+
+.incbtn{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin: 50px 705px;
+    padding: 20px;
+    border: solid;
+    border-radius: 25px;
+}
+
+.rst{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin: 0px 695px;
+    padding: 20px;
+    border: solid;
+    border-radius: 25px;
+}
