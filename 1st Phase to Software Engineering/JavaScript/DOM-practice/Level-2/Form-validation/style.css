@@ -1,0 +1,84 @@
+body{
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: #333;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+
+
+.form{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    background-color: #fffff2;
+}
+
+.form-title{
+    text-align: center !important;
+    text-decoration: solid underline;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="tel"],
+.form input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form label{
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.form input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="checkbox"]{
+    margin: 10px 0;
+    padding: 10px;
+
+}
+
+.form button[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.msg{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
